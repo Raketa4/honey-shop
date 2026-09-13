@@ -91,7 +91,7 @@ form.addEventListener("submit", (e) => {
     `Комментарий: ${document.getElementById("comment").value || "-"}`,
   ];
 
-  const subject = encodeURIComponent("Новая заявка — Медовая лавка");
+  const subject = encodeURIComponent("Новая заявка — Уральский-мёд");
   const body = encodeURIComponent(lines.join("\n"));
   window.location.href = `mailto:${EMAIL}?subject=${subject}&body=${body}`;
 
