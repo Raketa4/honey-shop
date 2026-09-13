@@ -208,6 +208,12 @@ a { color: var(--honey-dark); }
   flex-direction: column;
 }
 
+.product-photo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: 2px;
+}
+
 .product-photo img {
   display: block;
   width: 100%;

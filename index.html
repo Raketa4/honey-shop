@@ -5,7 +5,51 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Уральский-мёд — мёд разнотравье с Урала</title>
 <meta name="description" content="Мёд разнотравье с личной стационарной пасеки на Урале. 1000 ₽ за литр с учётом доставки, заказ от 3 литров, доставка в ПВЗ Озон.">
+<link rel="canonical" href="https://уральский-мёд.рф/">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Уральский-мёд">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Уральский-мёд — мёд разнотравье с Урала">
+<meta property="og:description" content="Мёд разнотравье с личной стационарной пасеки на Урале. 1000 ₽ за литр с учётом доставки, заказ от 3 литров, доставка в ПВЗ Озон.">
+<meta property="og:url" content="https://уральский-мёд.рф/">
+<meta property="og:image" content="https://уральский-мёд.рф/assets/photos/honey-1.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Уральский-мёд — мёд разнотравье с Урала">
+<meta name="twitter:description" content="Мёд разнотравье с личной стационарной пасеки на Урале. 1000 ₽ за литр с учётом доставки, заказ от 3 литров, доставка в ПВЗ Озон.">
+<meta name="twitter:image" content="https://уральский-мёд.рф/assets/photos/honey-1.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://уральский-мёд.рф/#organization",
+      "name": "Уральский-мёд",
+      "url": "https://уральский-мёд.рф/",
+      "description": "Личное подсобное хозяйство — стационарная пасека на Урале. Мёд разнотравье напрямую от производителя, без перекупки."
+    },
+    {
+      "@type": "Product",
+      "name": "Мёд разнотравье",
+      "image": "https://уральский-мёд.рф/assets/photos/honey-1.jpg",
+      "description": "Мёд разнотравье с личной стационарной пасеки на Урале. Литровый контейнер, масса 1500 ± 100 г.",
+      "brand": { "@id": "https://уральский-мёд.рф/#organization" },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://уральский-мёд.рф/#catalog",
+        "priceCurrency": "RUB",
+        "price": "1000",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Mulish:wght@400;600;800&display=swap" rel="stylesheet">
@@ -99,6 +143,7 @@
         <article class="product-card">
           <div class="product-photo">
             <img src="assets/photos/honey-1.jpg" alt="Мёд разнотравье, литровый контейнер">
+            <img src="assets/photos/мед.jpg" alt="Бутылки с мёдом разнотравье">
           </div>
           <div class="product-body">
             <h3>Мёд разнотравье</h3>
@@ -113,17 +158,9 @@
         </article>
 
         <article class="product-card product-card--soon">
-          <div class="product-body">
-            <span class="soon-badge">Скоро</span>
-            <h3>Другой сорт мёда</h3>
-            <p class="product-meta">Ассортимент расширяется</p>
-            <div class="product-actions">
-              <a href="#order-form" class="btn btn-ghost" data-product="honey-other">Узнать о поступлении</a>
-            </div>
+          <div class="product-photo">
+            <img src="assets/photos/соты.jpg" alt="Соты с мёдом на рамке">
           </div>
-        </article>
-
-        <article class="product-card product-card--soon">
           <div class="product-body">
             <span class="soon-badge">Скоро</span>
             <h3>Мёд в сотах</h3>
@@ -159,7 +196,6 @@
         <label for="product">Товар</label>
         <select id="product" name="Товар" required>
           <option value="Мёд разнотравье">Мёд разнотравье</option>
-          <option value="Другой сорт мёда (уточнить поступление)">Другой сорт мёда (уточнить поступление)</option>
           <option value="Мёд в сотах (уточнить поступление)">Мёд в сотах (уточнить поступление)</option>
         </select>
 

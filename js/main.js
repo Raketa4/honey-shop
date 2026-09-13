@@ -11,7 +11,6 @@ const TG_URL = `https://t.me/${TG_USERNAME}`;
 
 const PRODUCT_OPTIONS = {
   "honey-main": "Мёд разнотравье",
-  "honey-other": "Другой сорт мёда (уточнить поступление)",
   "combs": "Мёд в сотах (уточнить поступление)",
 };
 
